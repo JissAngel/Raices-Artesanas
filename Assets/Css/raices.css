@@ -1,0 +1,76 @@
+/*FUENTES*/
+.f-titulos {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.f-destacado {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700 !important;
+    font-style: normal;
+}
+
+.f-textos {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.f-secun {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*OPC.MENÚ*/
+.custom-dropdown {
+    border-radius: 0 !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    border: none !important;
+}
+
+.btn.b-verde {
+    background-color: #d2791d;
+    color: #fff;
+}
+
+.btn.b-verde:hover {
+    background-color: white;
+    color: #99a751;
+    border-color: #99a751;
+}
+
+.btn.b-blanco {
+    background-color: white;
+    color: #d2791d;
+    box-shadow: #212707;
+}
+
+.btn.b-blanco:hover {
+    background-color: #99a751;
+    color: #fff;
+}
+
+.nav-bg {
+    background-color: #513f110e; /* Color de fondo del navbar */
+    color: #7b7053; /* Color de texto por defecto para todo el navbar */
+}
+
+.nav-bg .nav-link,
+.nav-bg .dropdown-item {
+    color: #7b7053 !important; /* Asegura que los enlaces y los ítems del dropdown tengan el mismo color */
+}
+
+.nav-bg .nav-link:hover,
+.nav-bg .dropdown-item:hover {
+    color: #5a4b30 !important; /* Cambia el color en hover para mejor visualización */
+}
+
+.nav-bg .navbar-toggler-icon {
+    color: #7b7053; /* Color del ícono del menú hamburguesa */
+}
